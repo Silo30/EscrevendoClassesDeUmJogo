@@ -36,6 +36,4 @@ bardo.ataque();
 let mago = new hero("Mordenkainen", 40, "mago");
 mago.ataque();
 
-let psychic = new hero("", 17, "");
-psychic.ataque();
 
