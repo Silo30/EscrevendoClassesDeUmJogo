@@ -26,7 +26,7 @@ class hero {
             console.log("Sem homebrew nesta campanha");
             break;
         }
-         console.log(`O ${this.tipo} atacou usando ${ataque}`);
+         console.log(`O ${this.tipo} chamado ${this.nome} atacou usando ${ataque}`);
       }
 }
 
