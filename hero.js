@@ -16,6 +16,9 @@ class hero {
           case "monge":
             ataque = "suas artes marciais";
             break;
+          case "bardo":
+            ataque = "uma zombaria viciosa";
+            break; 
           case "ninja":
             ataque = "uma shuriken";
             break;
@@ -27,6 +30,6 @@ class hero {
       }
 }
 
-let monge = new hero("Ali Nadir", 35, "monge");
+let bardo = new hero("Ali Nadir", 35, "bardo");
 monge.ataque();
 
