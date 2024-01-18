@@ -12,4 +12,4 @@ class hero {
 
 
 let bardo = new hero("Ali Nadir", 35, "bardo")
-bardo.ataque
+bardo.ataque()
