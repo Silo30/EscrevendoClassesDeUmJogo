@@ -1,7 +1,15 @@
-let hero = [
-    nome = "Ali Nadir",
-    idade = 35,
-    tipo = "bardo"
-]
+class hero {
+    constructor(nome, idade, tipo) {
+        this.nome = nome;
+        this.idade = idade;
+        this.tipo = tipo;
+    }
+    ataque() {
 
-console.log(hero)
+        console.log(`O ${tipo} atacou usando ${ataque}`)
+    }
+}
+
+
+let bardo = new hero("Ali Nadir", 35, "bardo")
+bardo.ataque
